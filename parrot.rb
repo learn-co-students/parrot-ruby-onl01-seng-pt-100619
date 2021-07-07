@@ -1,2 +1,5 @@
-# Create method `parrot` that outputs a given phrase and
-# returns the phrase
+phrase = parrot
+def phrase
+  #=> expect(phrase).to receive(:puts).with("Squawk!")
+expect(phrase).to eq.("Squawk")
+end
